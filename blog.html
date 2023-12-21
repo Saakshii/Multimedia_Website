@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>University Website Design - Easy tutorials</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo image" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Program For 2022</h1>
+    </section>
+
+    <!-- Blog Page Content -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="certificate image" />
+          <h2>Our Certificate & Online Program For 2022</h2>
+          <p>
+            There's a lot of information in a certificate, including basic
+            things like: Validity Period. Issuing Certificate Authority (CA).
+            Subject (the domain it was issued to and depending on the type). A
+            character or graphic string expression that indicates the
+            certificate store from which a list of certificates is to be
+            retrieved. The value can either be a fully qualified Integrated File
+            System (IFS) directory path and file name of the certificate store,
+            starting with a leading forward slash (/), or one of the following
+            special values. If the file name does not identify a certificate
+            store, no rows are returned. If certificate-store is not specified,
+            *SYSTEM is the default.
+          </p>
+          <br />
+          <p>
+            The most commonly used format for a certificate of appreciation has
+            the wording “Certificate of Appreciation” at the top of the
+            certificate and centered on the page. Below this, standard format
+            includes “Presented to” with the recipient's name, followed by
+            “Presented by” and the name of the certificate issuer. The date and
+            signature go at the bottom.
+          </p>
+          <br />
+          <p>
+            This type of certificate is a go-to document that can work in nearly
+            any type of situation where you want to recognize what someone has
+            accomplished. It can be used for schools, sports, or in a
+            professional setting. The generic certificate of achievement should
+            list the name of the recipient along with the name of the person or
+            organization awarding the certificate. It should also have a brief
+            explanation for why the certificate is being awarded. It's also
+            important to include the date of the award. Many people also like to
+            add the location of the award, especially if the certificate is
+            being presented at a special event.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Telecommunications Relay Services (using TTY) 711 Hours: 24/7 VA
+        benefits<br />hotline 800-827-1000 Hours: Monday through Friday, 8:00
+        a.m. to 9:00 p.m. ET GI Bill hotline 888-442.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Sakshi</p>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
